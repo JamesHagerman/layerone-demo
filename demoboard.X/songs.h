@@ -5,48 +5,63 @@
 #define CHANNELS 4
 
 __prog__ const unsigned short c1f[] __attribute__((space(prog))) = {
-    C4, C4, C4, C4, C4, C4, C4, C4, C4, C4,
-    B3, B3, B3, B3, B3, B3, B3, B3, B3, B3, B3, B3,
+    D4, C4, C4, C4, D4, C4, C4, C4,
+    D4, C4, B3, B3, B3, B3, B3, B3,
+    B3, B3, B3, B3, B3, B3,
 };
 
 __prog__ const unsigned short c1a[] __attribute__((space(prog))) = {
-    50, 50, 50, 50, 50, 50, 50, 50, 50, 50,
-    50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50,
+    50, 50, 50, 50, 50, 50, 50, 50,
+    50, 50, 50, 50, 50, 50, 50, 50,
+    50, 50, 50, 50, 50, 50,
 };
 
 __prog__ const unsigned short c2f[] __attribute__((space(prog))) = {
-   Eb3,Eb3,Eb3,Eb3,Eb3,Eb3,Eb3,Eb3, F3, F3,
-    D3, D3, D3, D3, D3, D3, D3, D3, D3, D3, D3, D3,
+    Eb3,Eb3,Eb3,Eb3,Eb3,Eb3,Eb3,Eb3,
+    F3, F3, D3, D3, D3, D3, D3, D3,
+    D3, D3, D3, D3, D3, D3,
 };
 
 __prog__ const unsigned short c2a[] __attribute__((space(prog))) = {
-    50, 50, 50, 50, 50, 50, 50, 50, 50, 50,
-    50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50,
+    50, 50, 50, 50, 50, 50, 50, 50,
+    50, 50, 50, 50, 50, 50, 50, 50,
+    50, 50, 50, 50, 50, 50,
 };
 
 __prog__ const unsigned short c3f[] __attribute__((space(prog))) = {
-    G3, G3, G3, G3, G3, G3, G3, G3,Ab3,Ab3,
-    G3, G3, G3, G3, G3, G3, G3, G3, G3, G3, G3, G3,
+    G3, G3, G3, G3, G3, G3, G3, G3,
+    Ab3,Ab3,G3, G3, G3, G3, G3, G3,
+    G3, G3, G3, G3, G3, G3,
 };
 
 __prog__ const unsigned short c3a[] __attribute__((space(prog))) = {
-    50, 50, 50, 50, 50, 50, 50, 50, 50, 50,
-    50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50,
+    50, 50, 50, 50, 50, 50, 50, 50,
+    50, 50, 50, 50, 50, 50, 50, 50,
+    50, 50, 50, 50, 50, 50,
 };
 
 __prog__ const unsigned short c4f[] __attribute__((space(prog))) = {
-     1,  1,  1,  1,  1,  1,  1,  1,  1,  1,
-     1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,
+    D3, C3, C3, C3, D3, C3, C3, C3,
+    D3, C3, B2, B2, B2, B2, B2, B2,
+    B2, B2, B2, B2, B2, B2,
 };
 
 __prog__ const unsigned short c4a[] __attribute__((space(prog))) = {
-     0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-     0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+     0,  0,  0,  0,  0,  0,  0,  0,
+     0,  0,  0,  0,  0,  0,  0,  0,
+     0,  0,  0,  0,  0,  0,
 };
 
+// This allows to notes to be turned on or off based on a bitmask:
+//              Note Off     Note On
+// Channel 1:      1            2
+// Channel 2:      4            8
+// Channel 3:      16           32
+// Channel 4:      64           128
 __prog__ const unsigned short fltr[] __attribute__((space(prog))) = {
-     0,  0, 21,  0,  0, 21,  0, 21,  0, 21,
-     0,  0, 21,  0,  0, 21,  0,  0, 21,  0,  0, 21,
+     21,  21, 21,  0,  0, 21,  0, 21,
+     0, 21,  0,  0, 21,  0,  0, 21,
+     0,  0, 21,  0,  0, 21,
 };
 
 #endif //DEMOSONG

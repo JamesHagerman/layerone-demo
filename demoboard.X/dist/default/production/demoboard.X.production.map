@@ -1,26 +1,26 @@
 Microchip Technology Inc, vv1.24 (0)
 
 Tool Name:
-  /opt/microchip/xc16/v1.24/bin/bin/../bin/elf-ld
+  c:\program files (x86)\microchip\xc16\v1.24\bin\bin\..\bin/elf-ld.exe
 
 Command:
   -p24FJ256DA206 \
   -o \
   dist/default/production/demoboard.X.production.elf \
-  -L/opt/microchip/xc16/v1.24/bin/bin/.. \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../lib \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../lib/PIC24E \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../support/PIC24E/gld \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../lib/PIC24F \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../support/PIC24F/gld \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../lib/PIC24H \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../support/PIC24H/gld \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../lib/dsPIC30F \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../support/dsPIC30F/gld \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../lib/dsPIC33E \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../support/dsPIC33E/gld \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../lib/dsPIC33F \
-  -L/opt/microchip/xc16/v1.24/bin/bin/../../support/dsPIC33F/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/.. \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/PIC24E \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/PIC24E/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/PIC24F \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/PIC24F/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/PIC24H \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/PIC24H/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/dsPIC30F \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/dsPIC33E \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/dsPIC33F \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/dsPIC33F/gld \
   build/default/production/main.o \
   build/default/production/audio.o \
   build/default/production/gfx.o \
@@ -48,10 +48,10 @@ Command:
 
 Archive member included because of file (symbol)
 
-/opt/microchip/xc16/v1.24/bin/bin/../../lib/libpic30-elf.a(crt0_extended.o)
+c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(crt0_extended.o)
                               (__resetPRI)
-/opt/microchip/xc16/v1.24/bin/bin/../../lib/libpic30-elf.a(data_init_extended.o)
-                              /opt/microchip/xc16/v1.24/bin/bin/../../lib/libpic30-elf.a(crt0_extended.o) (__data_init_extended)
+c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(data_init_extended.o)
+                              c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(crt0_extended.o) (__data_init_extended)
 
 
 Program Memory  [Origin = 0x200, Length = 0x2a9f8]
@@ -60,19 +60,20 @@ section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200                0xd6           0x141  (321)
 .const                       0x2d6              0x2100          0x3180  (12672)
-_f6a697305560bc08           0x23d6               0x578           0x834  (2100)
-_f6a6978c5560bc08           0x294e               0x578           0x834  (2100)
-_f6a697e85560bc08           0x2ec6               0x578           0x834  (2100)
-_f6a698445560bc08           0x343e               0x578           0x834  (2100)
-_f6a698a05560bc08           0x39b6               0x578           0x834  (2100)
-_f6a698fc5560bc08           0x3f2e               0x578           0x834  (2100)
-_f6a699585560bc08           0x44a6               0x578           0x834  (2100)
-_f6a699b45560bc08           0x4a1e               0x578           0x834  (2100)
-_f6a69a105560bc08           0x4f96               0x578           0x834  (2100)
-.text                       0x550e               0x36e           0x525  (1317)
-.dinit                      0x587c                0x10            0x18  (24)
+.text                       0x23d6               0x34a           0x4ef  (1263)
+_04a806c0590af6a2           0x2720                0x2c            0x42  (66)
+_04a808a0590af6a2           0x274c                0x2c            0x42  (66)
+_04a80a20590af6a2           0x2778                0x2c            0x42  (66)
+_04a80ba0590af6a2           0x27a4                0x2c            0x42  (66)
+_04a80d20590af6a2           0x27d0                0x2c            0x42  (66)
+_04a80ea0590af6a2           0x27fc                0x2c            0x42  (66)
+_04c54060590af6a2           0x2828                0x2c            0x42  (66)
+_04c541e0590af6a2           0x2854                0x2c            0x42  (66)
+_04c54360590af6a2           0x2880                0x2c            0x42  (66)
+.text                       0x28ac                0x22            0x33  (51)
+.dinit                      0x28ce                0x10            0x18  (24)
 
-                     Total program memory used (bytes):         0x81d2  (33234) 12%
+                     Total program memory used (bytes):         0x3a4d  (14925) 5%
 
 
 Data Memory  [Origin = 0x800, Length = 0x18000]
@@ -99,43 +100,43 @@ External Symbols in Program Memory (by address):
 
                   0x000200                  __resetPRI
                   0x00022c                  __psv_init
-                  0x000238                  __data_init_extended
                   0x000238                  __data_init
+                  0x000238                  __data_init_extended
                   0x0002d2                  __DefaultInterrupt
                   0x0002d6                  _atk
-                  0x0023d6                  _c1f
-                  0x00294e                  _c1a
-                  0x002ec6                  _fltr
-                  0x00343e                  _c2f
-                  0x0039b6                  _c2a
-                  0x003f2e                  _c3f
-                  0x0044a6                  _c3a
-                  0x004a1e                  _c4f
-                  0x004f96                  _c4a
-                  0x00550e                  _audio_setup
-                  0x005528                  __T1Interrupt
-                  0x00585a                  _main
+                  0x0023d6                  _audio_setup
+                  0x0023f0                  __T1Interrupt
+                  0x002720                  _c1f
+                  0x00274c                  _c1a
+                  0x002778                  _c2f
+                  0x0027a4                  _c2a
+                  0x0027d0                  _c3f
+                  0x0027fc                  _c3a
+                  0x002828                  _c4f
+                  0x002854                  _c4a
+                  0x002880                  _fltr
+                  0x0028ac                  _main
 
 External Symbols in Program Memory (by name):
 
                   0x0002d2                  __DefaultInterrupt
-                  0x005528                  __T1Interrupt
+                  0x0023f0                  __T1Interrupt
                   0x000238                  __data_init
                   0x000238                  __data_init_extended
                   0x00022c                  __psv_init
                   0x000200                  __resetPRI
                   0x0002d6                  _atk
-                  0x00550e                  _audio_setup
-                  0x00294e                  _c1a
-                  0x0023d6                  _c1f
-                  0x0039b6                  _c2a
-                  0x00343e                  _c2f
-                  0x0044a6                  _c3a
-                  0x003f2e                  _c3f
-                  0x004f96                  _c4a
-                  0x004a1e                  _c4f
-                  0x002ec6                  _fltr
-                  0x00585a                  _main
+                  0x0023d6                  _audio_setup
+                  0x00274c                  _c1a
+                  0x002720                  _c1f
+                  0x0027a4                  _c2a
+                  0x002778                  _c2f
+                  0x0027fc                  _c3a
+                  0x0027d0                  _c3f
+                  0x002854                  _c4a
+                  0x002828                  _c4f
+                  0x002880                  _fltr
+                  0x0028ac                  _main
 
 Memory Configuration
 
@@ -158,8 +159,8 @@ LOAD build/default/production/main.o
 LOAD build/default/production/audio.o
 LOAD build/default/production/gfx.o
                     0x0001                  __MPLAB_BUILD = 0x1
-LOAD /opt/microchip/xc16/v1.24/bin/bin/../../lib/PIC24F/libpPIC24Fxxx-elf.a
-LOAD /opt/microchip/xc16/v1.24/bin/bin/../../lib/libfx-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/PIC24F\libpPIC24Fxxx-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libfx-elf.a
                     0x2abf8                  __CONFIG4 = 0x2abf8
                     0x2abfa                  __CONFIG3 = 0x2abfa
                     0x2abfc                  __CONFIG2 = 0x2abfc
@@ -179,13 +180,13 @@ LOAD /opt/microchip/xc16/v1.24/bin/bin/../../lib/libfx-elf.a
 
 .text             0x000200         0xd6
  *(.init)
- .init            0x000200         0x38 /opt/microchip/xc16/v1.24/bin/bin/../../lib/libpic30-elf.a(crt0_extended.o)
-                  0x000200                  __reset
+ .init            0x000200         0x38 c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(crt0_extended.o)
                   0x000200                  __resetPRI
+                  0x000200                  __reset
                   0x00022c                  __psv_init
- .init            0x000238         0x9a /opt/microchip/xc16/v1.24/bin/bin/../../lib/libpic30-elf.a(data_init_extended.o)
-                  0x000238                  __data_init_extended
+ .init            0x000238         0x9a c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(data_init_extended.o)
                   0x000238                  __data_init
+                  0x000238                  __data_init_extended
  *(.user_init)
  *(.handle)
  *(.isr*)
@@ -217,23 +218,23 @@ __CONFIG1         0x02abfe          0x2
 .comment
  *(.comment)
 
-.debug_info       0x000000        0xbb0
+.debug_info       0x000000        0xc07
  *(.debug_info)
- .debug_info      0x000000        0x20d build/default/production/main.o
- .debug_info      0x00020d        0x9a3 build/default/production/audio.o
+ .debug_info      0x000000        0x23f build/default/production/main.o
+ .debug_info      0x00023f        0x9c8 build/default/production/audio.o
  *(.gnu.linkonce.wi.*)
 
-.debug_abbrev     0x000000        0x1a2
+.debug_abbrev     0x000000        0x19a
  *(.debug_abbrev)
  .debug_abbrev    0x000000         0x79 build/default/production/main.o
- .debug_abbrev    0x000079        0x128 build/default/production/audio.o
- .debug_abbrev    0x0001a1          0x1 build/default/production/gfx.o
+ .debug_abbrev    0x000079        0x120 build/default/production/audio.o
+ .debug_abbrev    0x000199          0x1 build/default/production/gfx.o
 
-.debug_line       0x000000        0x3bf
+.debug_line       0x000000        0x3e3
  *(.debug_line)
- .debug_line      0x000000         0xcc build/default/production/main.o
- .debug_line      0x0000cc        0x2cf build/default/production/audio.o
- .debug_line      0x00039b         0x24 build/default/production/gfx.o
+ .debug_line      0x000000         0xde build/default/production/main.o
+ .debug_line      0x0000de        0x2e1 build/default/production/audio.o
+ .debug_line      0x0003bf         0x24 build/default/production/gfx.o
 
 .debug_frame      0x000000         0x58
  *(.debug_frame)
@@ -280,7 +281,7 @@ __CONFIG1         0x02abfe          0x2
                   0x000014          0x4 LONG 0x2d2 DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000016          0x4 LONG 0x2d2 DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000018          0x4 LONG 0x2d2 DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x00001a          0x4 LONG 0x5528 DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00001a          0x4 LONG 0x23f0 DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00001c          0x4 LONG 0x2d2 DEFINED (__Interrupt4)?ABSOLUTE (__Interrupt4):ABSOLUTE (__DefaultInterrupt)
                   0x00001e          0x4 LONG 0x2d2 DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000020          0x4 LONG 0x2d2 DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
@@ -408,7 +409,7 @@ __CONFIG1         0x02abfe          0x2
                   0x000114          0x4 LONG 0x2d2 DEFINED (__AltINT0Interrupt)?ABSOLUTE (__AltINT0Interrupt):DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000116          0x4 LONG 0x2d2 DEFINED (__AltIC1Interrupt)?ABSOLUTE (__AltIC1Interrupt):DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000118          0x4 LONG 0x2d2 DEFINED (__AltOC1Interrupt)?ABSOLUTE (__AltOC1Interrupt):DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x00011a          0x4 LONG 0x5528 DEFINED (__AltT1Interrupt)?ABSOLUTE (__AltT1Interrupt):DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00011a          0x4 LONG 0x23f0 DEFINED (__AltT1Interrupt)?ABSOLUTE (__AltT1Interrupt):DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00011c          0x4 LONG 0x2d2 DEFINED (__AltInterrupt4)?ABSOLUTE (__AltInterrupt4):DEFINED (__Interrupt4)?ABSOLUTE (__Interrupt4):ABSOLUTE (__DefaultInterrupt)
                   0x00011e          0x4 LONG 0x2d2 DEFINED (__AltIC2Interrupt)?ABSOLUTE (__AltIC2Interrupt):DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000120          0x4 LONG 0x2d2 DEFINED (__AltOC2Interrupt)?ABSOLUTE (__AltOC2Interrupt):DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
@@ -1761,9 +1762,9 @@ __CONFIG1         0x02abfe          0x2
                     0x0230                  UART2 = 0x230
                     0x0230                  _UART2 = 0x230
 START GROUP
-LOAD /opt/microchip/xc16/v1.24/bin/bin/../../lib/libpic30-elf.a
-LOAD /opt/microchip/xc16/v1.24/bin/bin/../../lib/libm-elf.a
-LOAD /opt/microchip/xc16/v1.24/bin/bin/../../lib/libc-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libm-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libc-elf.a
 END GROUP
 OUTPUT(dist/default/production/demoboard.X.production.elf elf32-pic30)
 LOAD default_isr
@@ -1785,9 +1786,9 @@ __c30_signature
  __c30_signature
                   0x0000d6          0x6 build/default/production/gfx.o
  __c30_signature
-                  0x0000dc          0x6 /opt/microchip/xc16/v1.24/bin/bin/../../lib/libpic30-elf.a(crt0_extended.o)
+                  0x0000dc          0x6 c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(crt0_extended.o)
  __c30_signature
-                  0x0000e2          0x6 /opt/microchip/xc16/v1.24/bin/bin/../../lib/libpic30-elf.a(data_init_extended.o)
+                  0x0000e2          0x6 c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(data_init_extended.o)
 
 .nbss               0x0800         0x1c
  .nbss              0x0800         0x1c build/default/production/audio.o
@@ -1799,66 +1800,68 @@ __c30_signature
  .const             0x82d6       0x2100 build/default/production/audio.o
                     0x82d6                  _atk
 
-_f6a697305560bc08
-                  0x0023d6        0x578
- _f6a697305560bc08
-                  0x0023d6        0x578 build/default/production/audio.o
-                  0x0023d6                  _c1f
+.text             0x0023d6        0x34a
+ .text            0x0023d6        0x34a build/default/production/audio.o
+                  0x0023d6                  _audio_setup
+                  0x0023f0                  __T1Interrupt
 
-_f6a6978c5560bc08
-                  0x00294e        0x578
- _f6a6978c5560bc08
-                  0x00294e        0x578 build/default/production/audio.o
-                  0x00294e                  _c1a
+_04a806c0590af6a2
+                  0x002720         0x2c
+ _04a806c0590af6a2
+                  0x002720         0x2c build/default/production/audio.o
+                  0x002720                  _c1f
 
-_f6a697e85560bc08
-                  0x002ec6        0x578
- _f6a697e85560bc08
-                  0x002ec6        0x578 build/default/production/audio.o
-                  0x002ec6                  _fltr
+_04a808a0590af6a2
+                  0x00274c         0x2c
+ _04a808a0590af6a2
+                  0x00274c         0x2c build/default/production/audio.o
+                  0x00274c                  _c1a
 
-_f6a698445560bc08
-                  0x00343e        0x578
- _f6a698445560bc08
-                  0x00343e        0x578 build/default/production/audio.o
-                  0x00343e                  _c2f
+_04a80a20590af6a2
+                  0x002778         0x2c
+ _04a80a20590af6a2
+                  0x002778         0x2c build/default/production/audio.o
+                  0x002778                  _c2f
 
-_f6a698a05560bc08
-                  0x0039b6        0x578
- _f6a698a05560bc08
-                  0x0039b6        0x578 build/default/production/audio.o
-                  0x0039b6                  _c2a
+_04a80ba0590af6a2
+                  0x0027a4         0x2c
+ _04a80ba0590af6a2
+                  0x0027a4         0x2c build/default/production/audio.o
+                  0x0027a4                  _c2a
 
-_f6a698fc5560bc08
-                  0x003f2e        0x578
- _f6a698fc5560bc08
-                  0x003f2e        0x578 build/default/production/audio.o
-                  0x003f2e                  _c3f
+_04a80d20590af6a2
+                  0x0027d0         0x2c
+ _04a80d20590af6a2
+                  0x0027d0         0x2c build/default/production/audio.o
+                  0x0027d0                  _c3f
 
-_f6a699585560bc08
-                  0x0044a6        0x578
- _f6a699585560bc08
-                  0x0044a6        0x578 build/default/production/audio.o
-                  0x0044a6                  _c3a
+_04a80ea0590af6a2
+                  0x0027fc         0x2c
+ _04a80ea0590af6a2
+                  0x0027fc         0x2c build/default/production/audio.o
+                  0x0027fc                  _c3a
 
-_f6a699b45560bc08
-                  0x004a1e        0x578
- _f6a699b45560bc08
-                  0x004a1e        0x578 build/default/production/audio.o
-                  0x004a1e                  _c4f
+_04c54060590af6a2
+                  0x002828         0x2c
+ _04c54060590af6a2
+                  0x002828         0x2c build/default/production/audio.o
+                  0x002828                  _c4f
 
-_f6a69a105560bc08
-                  0x004f96        0x578
- _f6a69a105560bc08
-                  0x004f96        0x578 build/default/production/audio.o
-                  0x004f96                  _c4a
+_04c541e0590af6a2
+                  0x002854         0x2c
+ _04c541e0590af6a2
+                  0x002854         0x2c build/default/production/audio.o
+                  0x002854                  _c4a
 
-.text             0x00550e        0x36e
- .text            0x00550e        0x34c build/default/production/audio.o
-                  0x00550e                  _audio_setup
-                  0x005528                  __T1Interrupt
- .text            0x00585a         0x22 build/default/production/main.o
-                  0x00585a                  _main
+_04c54360590af6a2
+                  0x002880         0x2c
+ _04c54360590af6a2
+                  0x002880         0x2c build/default/production/audio.o
+                  0x002880                  _fltr
 
-.dinit            0x00587c         0x10
- .dinit           0x00587c         0x10 data_init
+.text             0x0028ac         0x22
+ .text            0x0028ac         0x22 build/default/production/main.o
+                  0x0028ac                  _main
+
+.dinit            0x0028ce         0x10
+ .dinit           0x0028ce         0x10 data_init
